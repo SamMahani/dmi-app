@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addItemReducer should handle ADD_ITEM_SUCCESS action 1`] = `
+Immutable.Map {
+  "item": "",
+  "success": true,
+  "error": false,
+}
+`;
+
+exports[`addItemReducer should properly handle addItemError action 1`] = `
+Immutable.Map {
+  "item": "",
+  "success": false,
+  "error": true,
+}
+`;
+
+exports[`addItemReducer should properly handle addItemSuccess action 1`] = `
+Immutable.Map {
+  "item": "",
+  "success": true,
+  "error": false,
+}
+`;
+
+exports[`addItemReducer should properly handle getItemsSuccess action 1`] = `
+Immutable.Map {
+  "item": "Test item",
+  "success": false,
+  "error": false,
+}
+`;
+
+exports[`addItemReducer should return initial state when actions to not match 1`] = `
+Immutable.Map {
+  "item": "",
+  "success": false,
+  "error": false,
+}
+`;
