@@ -14,7 +14,6 @@ export function* postApi(action) {
     console.log(response);
     yield put(addItemSuccess());
   } catch (error) {
-    console.error(error);
     yield put(addItemError());
   }
 }
