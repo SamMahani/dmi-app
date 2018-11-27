@@ -1,6 +1,6 @@
 # Dovenmuehle
 
-Sample Full-Stack App
+Full-Stack Sample Application
 
 ### Running the App
 
