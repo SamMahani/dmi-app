@@ -7,7 +7,6 @@ export function* fetchApi() {
     const items = yield response.json();
     yield put(getItemsSuccess(items));
   } catch (error) {
-    console.error(error);
     yield put(getItemsError());
   }
 }
