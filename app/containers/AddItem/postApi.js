@@ -11,7 +11,7 @@ export function* postApi(action) {
       },
       body: JSON.stringify({ item }),
     });
-    console.log(response);
+    console.log(response.status);
     yield put(addItemSuccess());
   } catch (error) {
     yield put(addItemError());
