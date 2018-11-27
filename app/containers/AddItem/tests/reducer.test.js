@@ -1,7 +1,6 @@
 import { fromJS } from 'immutable';
 import addItemReducer from '../reducer';
 import { addItem, addItemSuccess, addItemError } from '../actions';
-// import { ADD_ITEM_SUCCESS } from '../constants';
 
 describe('addItemReducer', () => {
   let initialState;
